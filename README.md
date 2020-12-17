@@ -1,5 +1,5 @@
 # Multilingual Online Translator
-Command-Line project that translates words in 13 languages via web scraping context.reverso.net
+Command-Line project that translates words in 13 languages by web scraping context.reverso.net
  
 ## This project makes use of the following libraries:
 * bs4
