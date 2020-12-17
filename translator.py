@@ -12,7 +12,8 @@ word = ""
 
 def parse_arguments():
     global orig_lang, trans_lang, word
-    parser = ArgumentParser(description="Multilingual Online Translator (Web Scraping project)")
+    parser = ArgumentParser(description="Multilingual Online Translator (Web Scraping project)\n"+\
+                                        "Usage: python translator.py [origin language] [target language] [word]")
     parser.add_argument("olang", type=str)
     parser.add_argument("tlang", type=str)
     parser.add_argument("word", type=str)
